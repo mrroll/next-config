@@ -1,5 +1,5 @@
 {
-  "name": "next-config",
+  "name": "@mrroll/next-config",
   "version": "1.0.0",
   "description": "mrroll's Next.js config",
   "main": "main.js",
@@ -20,5 +20,13 @@
     "sharp": "^0.25.2",
     "svg-sprite-loader": "^4.2.2",
     "webp-loader": "^0.6.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/mrroll/next-config/issues"
+  },
+  "homepage": "https://github.com/mrroll/next-config#readme"
 }
