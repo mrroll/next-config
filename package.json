@@ -17,7 +17,6 @@
     "next-optimized-images": "^2.5.7",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "responsive-loader": "^1.2.0",
-    "sass": "^1.26.3",
     "sharp": "^0.25.2",
     "svg-sprite-loader": "^4.2.2",
     "webp-loader": "^0.6.0"
