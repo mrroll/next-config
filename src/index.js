@@ -1,8 +1,7 @@
 // Next
 const withOptimizedImages = require("next-optimized-images");
-const withConfigure = require("./withConfigure");
+const withConfiguration = require("./withConfiguration");
 
-module.exports = {
-  withOptimizedImages,
-  withConfigure,
+module.exports = function WithConfig(nextConfig = {}) {
+  return withOptimizedImages(withConfiguration(nextConfig));
 };

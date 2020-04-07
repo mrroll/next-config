@@ -4,7 +4,7 @@ const getEnvironment = require("./getEnvironment");
 const cssModules = require("./cssModules");
 const minifyCss = require("./minifyCss");
 
-module.exports = function withConfigure(nextConfig = {}) {
+module.exports = function withConfiguration(nextConfig = {}) {
   const assetPrefix = process.env.EXPORT_RELATIVE ? "." : "";
   const defaultOptions = {
     // For filesystem based routing if needed.
