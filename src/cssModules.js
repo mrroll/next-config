@@ -1,6 +1,6 @@
 const isArray = require("lodash/isArray");
 
-module.exports = function cssModules({ config, dev }) {
+module.exports = function cssModules({ config, dev, nextConfig }) {
   config.module.rules.forEach(rule => {
     if (!rule.oneOf) {
       return;
@@ -52,7 +52,9 @@ module.exports = function cssModules({ config, dev }) {
            * https://github.com/webpack-contrib/sass-loader/issues/760#issuecomment-534043880
            * Include global variables, functions and mixins for use in other files.
            */
-          item.options.prependData = `@import "~scss/globals/index";`;
+          if (nextConfig.scssPrependData) {
+            item.options.prependData = scssPrependData;
+          }
         }
       });
     });
