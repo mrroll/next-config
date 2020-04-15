@@ -53,7 +53,7 @@ module.exports = function cssModules({ config, dev, nextConfig }) {
            * Include global variables, functions and mixins for use in other files.
            */
           if (nextConfig.scssPrependData) {
-            item.options.prependData = scssPrependData;
+            item.options.prependData = nextConfig.scssPrependData;
           }
         }
       });
