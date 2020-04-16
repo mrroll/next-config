@@ -17,47 +17,40 @@ module.exports = function withConfiguration(nextConfig = {}) {
     // next-optimized-images
     optimizeImages: true,
   };
-  return Object.assign(
-    // Empty Object
-    {},
-    // Our default options
-    { ...defaultOptions },
-    // unless config options are overridden in next.config.js
-    { ...nextConfig },
-    // Finally, webpack.
-    {
-      webpack: function getWebpackConfig(config, options) {
-        const { buildId, dev, isServer, defaultLoaders, webpack } = options;
+  return {
+    ...defaultOptions,
+    ...nextConfig,
+    webpack: function getWebpackConfig(config, options) {
+      const { buildId, dev, isServer, defaultLoaders, webpack } = options;
 
-        /**
-         * Relative to root
-         * Array so that we can add paths if we want.
-         */
-        config.resolve.modules.push(...[path.resolve(process.cwd(), "src")]);
+      /**
+       * Relative to root
+       * Array so that we can add paths if we want.
+       */
+      config.resolve.modules.push(...[path.resolve(process.cwd(), "src")]);
 
-        /**
-         * Functions below MUTATE the config object
-         */
+      /**
+       * Functions below MUTATE the config object
+       */
 
-        // Add S/CSS Options
-        cssModules({ config, dev, nextConfig });
-        // Minify stuff
-        // https://spectrum.chat/next-js/general/minification-of-css~8d5458ee-39e3-4706-a666-6c471e9fc7f8?m=MTU1MDY1MjIwNzU1NA==
-        minifyCss({ config, dev });
+      // Add S/CSS Options
+      cssModules({ config, dev, nextConfig });
+      // Minify stuff
+      // https://spectrum.chat/next-js/general/minification-of-css~8d5458ee-39e3-4706-a666-6c471e9fc7f8?m=MTU1MDY1MjIwNzU1NA==
+      minifyCss({ config, dev });
 
-        // Add polyfills
-        getPolyfills(config);
+      // Add polyfills
+      getPolyfills(config);
 
-        /**
-         * the webpack key is overridden with this so let's try to get the
-         * passed in config as well
-         */
-        if (typeof nextConfig.webpack === "function") {
-          return nextConfig.webpack(config, options);
-        }
+      /**
+       * the webpack key is overridden with this so let's try to get the
+       * passed in config as well
+       */
+      if (typeof nextConfig.webpack === "function") {
+        return nextConfig.webpack(config, options);
+      }
 
-        return config;
-      },
-    }
-  );
+      return config;
+    },
+  };
 };
