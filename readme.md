@@ -42,16 +42,39 @@ module.exports = withConfig({
 ```
 
 - [css-loader modules](https://webpack.js.org/loaders/css-loader/#object) default options
+
   - [`localIdentName`](https://webpack.js.org/loaders/css-loader/#localidentname) in development is `[path][name]__[local]--[hash:base64:5]`
   - [`localIdentName`](https://webpack.js.org/loaders/css-loader/#localidentname) in production is `[hash:base64:8]`
   - [`mode`](https://webpack.js.org/loaders/css-loader/#mode) has been reset to default so you can use global css modules.
+
   ```scss
   :global(.box) {
     //
   }
   ```
+
   - Minifies CSS in production.
-- Adds polyfills
+
+- Specify your own polyfill by passing in a `polyfills` array or string.
+
+```js
+// next.config.js
+const withConfig = require("@mrroll/next-config");
+
+module.exports = withConfig({
+  // your config for other plugins or the general next.js here...
+
+  // Pass in an array
+  polyfills: ['./somePolyfill','somePolyFillFromNodeModules'];
+
+  // Or
+
+  // Pass in a string.
+  polyfills: './somepolyFill';
+});
+```
+
+- Adds polyfills by default
   - [IntersectionObserver polyfill](https://github.com/w3c/IntersectionObserver/tree/master/polyfill)
 
 # Dependency Notes
