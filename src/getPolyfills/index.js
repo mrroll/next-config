@@ -1,5 +1,9 @@
-function getPolyfillsFromConfig(config) {
-  const { polyfills } = config;
+function getPolyfillsFromNextConfig(nextConfig) {
+  const { polyfills } = nextConfig;
+
+  if (!polyfills) {
+    return [];
+  }
 
   const isString = typeof polyfills === "string";
   if (isString) {
@@ -16,15 +20,10 @@ function getPolyfillsFromConfig(config) {
   );
 }
 
-module.exports = function getPolyfills(config) {
+module.exports = function getPolyfills({ config, nextConfig }) {
   const originalEntry = config.entry;
 
-  const polyfillsFromConfig = getPolyfillsFromConfig();
-
-  // Ensure that the polyfills are valid.
-  polyfillsFromConfig.forEach(polyfill => {
-    require.resolve(polyfill);
-  });
+  const polyfillsFromConfig = getPolyfillsFromNextConfig(nextConfig);
 
   config.entry = async function () {
     const entries = await originalEntry();
@@ -33,18 +32,32 @@ module.exports = function getPolyfills(config) {
       return entries;
     }
 
-    const polyFillFile = require.resolve("./polyfills");
+    // In case we want to add a polyfill to the package.
+    // const polyFillFile = require.resolve("./polyfills");
+    // if (entries["main.js"].includes(polyFillFile)) {
+    //   return entries;
+    // }
 
-    if (entries["main.js"].includes(polyFillFile)) {
+    const arePolyfillsLoaded = entries["main.js"].some(entry => {
+      return polyfillsFromConfig.some(polyfillFromConfig => {
+        if (polyfillFromConfig === entry) {
+          return true;
+        }
+      });
+    });
+
+    if (arePolyfillsLoaded) {
       return entries;
     }
 
     // Array of strings.
     entries["main.js"] = [
       ...entries["main.js"],
-      polyFillFile,
+      // In case we want to add a polyfill to the package.
+      // polyFillFile,
       ...polyfillsFromConfig,
     ];
+
     return entries;
   };
 };

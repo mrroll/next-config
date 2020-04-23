@@ -56,6 +56,7 @@ module.exports = withConfig({
   - Minifies CSS in production.
 
 - Specify your own polyfill by passing in a `polyfills` array or string.
+  - **Important Note: You may not use paths that are loaded with [resolve.modules](https://webpack.js.org/configuration/resolve/#resolvemodules). e.g. the file `$PROJECT_FOLDER/folder/poyfill.js` must be loaded with `./folder/poyfill`, not `folder/poyfill`. This does not apply to modules found in `node_modules`.**
 
 ```js
 // next.config.js
@@ -65,7 +66,7 @@ module.exports = withConfig({
   // your config for other plugins or the general next.js here...
 
   // Pass in an array
-  polyfills: ['./somePolyfill','somePolyFillFromNodeModules'];
+  polyfills: ['./somePolyfill','somePolyfillFromNodeModules'];
 
   // Or
 
@@ -73,9 +74,6 @@ module.exports = withConfig({
   polyfills: './somepolyFill';
 });
 ```
-
-- Adds polyfills by default
-  - [IntersectionObserver polyfill](https://github.com/w3c/IntersectionObserver/tree/master/polyfill)
 
 # Dependency Notes
 

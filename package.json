@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "1.0.6",
+  "version": "1.0.11",
   "description": "mrroll's Next.js config",
   "main": "main.js",
   "author": "mrroll",
@@ -12,7 +12,6 @@
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-optipng": "^7.1.0",
     "imagemin-svgo": "^7.1.0",
-    "intersection-observer": "^0.7.0",
     "lodash": "^4.17.15",
     "lqip-loader": "^2.2.0",
     "next-optimized-images": "^2.5.8",
