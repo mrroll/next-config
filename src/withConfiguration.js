@@ -1,5 +1,3 @@
-const path = require("path");
-
 const getEnvironment = require("./getEnvironment");
 const cssModules = require("./cssModules");
 const minifyCss = require("./minifyCss");
@@ -24,10 +22,13 @@ module.exports = function withConfiguration(nextConfig = {}) {
       const { buildId, dev, isServer, defaultLoaders, webpack } = options;
 
       /**
-       * Relative to root
-       * Array so that we can add paths if we want.
+       * Relative to root Array so that we can add paths if we want.
+       *
+       * No longer needed as there already undocumented support for baseUrl in
+       * jsconfig.json and tsconfig.ts
+       *
+       * config.resolve.modules.push(...[path.resolve(process.cwd(), "src")]);
        */
-      config.resolve.modules.push(...[path.resolve(process.cwd(), "src")]);
 
       /**
        * Functions below MUTATE the config object

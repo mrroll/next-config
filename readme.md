@@ -21,14 +21,8 @@ module.exports = withConfig({
 
 - Loads and enables [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images).
 - Pass in environment variables by placing them in a `.env file` similar to [what Create-React-App does](https://create-react-app.dev/docs/adding-custom-environment-variables/).
-  - You must create custom environment variables beginning with NEXTJS\_. Any other variables will be ignored to avoid accidentally exposing a private key on the machine that could have the same name.
-- Webpack [resolve.modules](https://webpack.js.org/configuration/resolve/#resolvemodules) includes the `src` directory.
-  - This allows you to import files from `src`
 
-```js
-// imports src/pages/index/someModule.js
-import someModule from "pages/index/someModule";
-```
+  - You must create custom environment variables beginning with NEXTJS\_. Any other variables will be ignored to avoid accidentally exposing a private key on the machine that could have the same name.
 
 - Exposes [prependData](https://webpack.js.org/loaders/sass-loader/#prependdata) which allows you to store your global configuration, variables, functions, mixins etc. in one place.
   - in `next.config.js`
@@ -78,3 +72,7 @@ module.exports = withConfig({
 # Dependency Notes
 
 - svg-sprite-loader is locked due to https://github.com/JetBrains/svg-sprite-loader/issues/186
+
+# TODO
+
+- [ ] Fix eslint config and dev dependencies.
