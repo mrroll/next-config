@@ -1,7 +1,7 @@
 # next-config
 
 This module extends the default options of [Next.js](https://nextjs.org/).
-Requires Next.js ^9.3
+Requires Next.js ^9.4
 
 # Get Started
 
@@ -22,6 +22,7 @@ module.exports = withConfig({
 - Loads and enables [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images).
 - Pass in environment variables by placing them in a `.env file` similar to [what Create-React-App does](https://create-react-app.dev/docs/adding-custom-environment-variables/).
 
+  - **Deprecated as of 3.0 and Next 9.4 due to [https://nextjs.org/blog/next-9-4#new-environment-variables-support](https://nextjs.org/blog/next-9-4#new-environment-variables-support)**
   - You must create custom environment variables beginning with NEXTJS\_. Any other variables will be ignored to avoid accidentally exposing a private key on the machine that could have the same name.
 
 - Exposes [prependData](https://webpack.js.org/loaders/sass-loader/#prependdata) which allows you to store your global configuration, variables, functions, mixins etc. in one place.
@@ -47,8 +48,7 @@ module.exports = withConfig({
   }
   ```
 
-  - Minifies CSS in production.
-
+- Minifies CSS in production.
 - Specify your own polyfill by passing in a `polyfills` array or string.
   - **Important Note: You may not use paths that are loaded with [resolve.modules](https://webpack.js.org/configuration/resolve/#resolvemodules). e.g. the file `$PROJECT_FOLDER/folder/poyfill.js` must be loaded with `./folder/poyfill`, not `folder/poyfill`. This does not apply to modules found in `node_modules`.**
 

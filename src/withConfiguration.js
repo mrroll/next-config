@@ -1,4 +1,4 @@
-const getEnvironment = require("./getEnvironment");
+// const getEnvironment = require("./getEnvironment");
 const cssModules = require("./cssModules");
 const minifyCss = require("./minifyCss");
 const getPolyfills = require("./getPolyfills");
@@ -8,8 +8,11 @@ module.exports = function withConfiguration(nextConfig = {}) {
     /**
      * Mimic CRA's ability to pass on specific env variables.
      * https://create-react-app.dev/docs/adding-custom-environment-variables/
+     *
+     * Not needed since 9.4
+     * https://nextjs.org/blog/next-9-4#new-environment-variables-support
      */
-    env: getEnvironment(),
+    // env: getEnvironment(),
 
     // Plugins
     // next-optimized-images
