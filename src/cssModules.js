@@ -41,9 +41,13 @@ module.exports = function cssModules({ config, dev, nextConfig }) {
         }
 
         /**
+         * NextJS has read my mind once again.
+         * https://github.com/vercel/next.js/pull/12277
+         */
+        return;
+        /**
          * sass-loader options
-         * An experimental config that can set sassOptions is already here:
-         * https://github.com/zeit/next.js/blob/canary/packages/next/next-server/server/config.ts#L12-L63
+         * https://github.com/vercel/next.js/blob/canary/packages/next/next-server/server/config.ts#L39
          */
         const isSassLoader = loader.includes("sass-loader");
         if (isSassLoader) {
