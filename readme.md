@@ -33,8 +33,9 @@ module.exports = withConfig({
   ```
 
 - Minifies CSS in production.
-- Specify your own polyfill by passing in a `polyfills` array or string.
+- Specify your own polyfills by passing in a `polyfills` array or string.
   - **Important Note: You may not use paths that are loaded with [resolve.modules](https://webpack.js.org/configuration/resolve/#resolvemodules). e.g. the file `$PROJECT_FOLDER/folder/poyfill.js` must be loaded with `./folder/poyfill`, not `folder/poyfill`. This does not apply to modules found in `node_modules`.**
+    - There is experimental support for resolving modules using `baseUrl` in `jsconfig.json`. `tsconfig.json` is **NOT** yet supported.
 
 ```js
 // next.config.js
@@ -73,3 +74,8 @@ module.exports = withConfig({
 # Dependency Notes
 
 # TODO
+
+### Polyfills
+
+- [ ] Support `tsconfig.json`
+- [ ] Support the `paths` object for module resolution
