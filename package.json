@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "mrroll's Next.js config",
   "main": "main.js",
   "author": "mrroll",

@@ -17,6 +17,7 @@ module.exports = function withConfiguration(nextConfig = {}) {
     // Plugins
     // next-optimized-images
     optimizeImages: true,
+    removeOriginalExtension: true,
   };
   return {
     ...defaultOptions,
