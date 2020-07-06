@@ -1,4 +1,5 @@
 const isArray = require("lodash/isArray");
+const get = require("lodash/get");
 
 module.exports = function cssModules({ config, dev, nextConfig }) {
   config.module.rules.forEach(rule => {
@@ -39,28 +40,22 @@ module.exports = function cssModules({ config, dev, nextConfig }) {
             delete options.modules.mode;
           }
         }
-
-        /**
-         * NextJS has read my mind once again.
-         * https://github.com/vercel/next.js/pull/12277
-         */
-        return;
-        /**
-         * sass-loader options
-         * https://github.com/vercel/next.js/blob/canary/packages/next/next-server/server/config.ts#L39
-         */
-        const isSassLoader = loader.includes("sass-loader");
-        if (isSassLoader) {
-          /**
-           * data is no longer supported in sassOptions
-           * https://github.com/webpack-contrib/sass-loader/issues/760#issuecomment-534043880
-           * Include global variables, functions and mixins for use in other files.
-           */
-          if (nextConfig.scssPrependData) {
-            item.options.prependData = nextConfig.scssPrependData;
-          }
-        }
       });
+    });
+
+    /**
+     * Allow the use of Global S/CSS in any file with _app in it.
+     */
+    rule.oneOf.forEach(oneOf => {
+      const hasInclude = get(oneOf, "issuer.include");
+
+      if (!hasInclude) {
+        return;
+      }
+
+      if (hasInclude.includes("_app.js")) {
+        oneOf.issuer.include = [hasInclude, /_app/g];
+      }
     });
   });
 };
