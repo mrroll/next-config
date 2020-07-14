@@ -20,13 +20,6 @@ module.exports = withConfig({
 # Features
 
 - Loads and enables [next-optimized-images](https://github.com/cyrilwanner/next-optimized-images).
-- Allows to use global c/scss in files containing `_app`.
-
-```js
-// src/components/Pages/_app/index.js
-import "./index.scss";
-```
-
 - [css-loader modules](https://webpack.js.org/loaders/css-loader/#object) default options
 
   - [`localIdentName`](https://webpack.js.org/loaders/css-loader/#localidentname) in development is `[path][name]__[local]--[hash:base64:5]`

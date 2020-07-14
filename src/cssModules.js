@@ -45,17 +45,20 @@ module.exports = function cssModules({ config, dev, nextConfig }) {
 
     /**
      * Allow the use of Global S/CSS in any file with _app in it.
+     *
+     * Temporarily disable.
      */
-    rule.oneOf.forEach(oneOf => {
-      const hasInclude = get(oneOf, "issuer.include");
+    false &&
+      rule.oneOf.forEach(oneOf => {
+        const hasInclude = get(oneOf, "issuer.include");
 
-      if (!hasInclude) {
-        return;
-      }
+        if (!hasInclude) {
+          return;
+        }
 
-      if (hasInclude.includes("_app.js")) {
-        oneOf.issuer.include = [hasInclude, /_app/g];
-      }
-    });
+        if (hasInclude.includes("_app.js")) {
+          oneOf.issuer.include = [hasInclude, /_app/g];
+        }
+      });
   });
 };
