@@ -45,7 +45,7 @@ module.exports = function withConfiguration(nextConfig = {}) {
       minifyCss({ config, dev });
 
       // Add polyfills
-      getPolyfills({ config, nextConfig });
+      // getPolyfills({ config, nextConfig });
 
       /**
        * the webpack key is overridden with this so let's try to get the

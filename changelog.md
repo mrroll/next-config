@@ -1,3 +1,7 @@
+# 6.0
+
+- Remove polyfill feature.
+
 # 5.0
 
 - Revert allowing use of global css in any file containing `_app`
