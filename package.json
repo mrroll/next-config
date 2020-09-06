@@ -1,34 +1,32 @@
 {
   "name": "@mrroll/next-config",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "mrroll's Next.js config",
   "main": "main.js",
   "author": "mrroll",
   "license": "MIT",
   "dependencies": {
+    "@mrroll/next-optimized-images": "^2.6.2",
     "image-trace-loader": "^1.0.2",
     "imagemin-gifsicle": "^7.0.0",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "lqip-loader": "^2.2.0",
-    "next-optimized-images": "^2.6.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "responsive-loader": "^2.0.0",
-    "sharp": "^0.25.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "responsive-loader": "^2.1.1",
+    "sharp": "^0.26.0",
     "svg-sprite-loader": "5.0.0",
     "webp-loader": "^0.6.0"
   },
   "devDependencies": {
-    "chokidar": "^3.4.1",
-    "eslint": "^7.5.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
+    "@mrroll/eslint-config": "^1.0.3",
+    "chokidar": "^3.4.2",
+    "eslint": "^7.8.1",
+    "prettier": "^2.1.1"
   },
+  "peerDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node dev.js"

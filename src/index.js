@@ -1,5 +1,5 @@
 // Next
-const withOptimizedImages = require("next-optimized-images");
+const withOptimizedImages = require("@mrroll/next-optimized-images");
 const withConfiguration = require("./withConfiguration");
 
 module.exports = function WithConfig(nextConfig = {}) {

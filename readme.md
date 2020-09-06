@@ -38,5 +38,6 @@ module.exports = withConfig({
 
 ### Polyfills
 
+- [ ] Update next-optimized-images when [Pull Release](https://github.com/cyrilwanner/next-optimized-images/pull/201) is merged or [issue is resolved](https://github.com/cyrilwanner/next-optimized-images/issues/50) and the new version is published to NPM.
 - [ ] Support `tsconfig.json`
 - [ ] Support the `paths` object for module resolution
