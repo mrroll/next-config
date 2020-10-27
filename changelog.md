@@ -1,9 +1,16 @@
+# 7.0.0
+
+- Add correct peer dependency.
+- Remove image optmization. Simply use https://nextjs.org/docs/api-reference/next/image
+
 # 6.1.0
 
+- Last Version of next-config with next-optimized-images
+
 - Temporarily use fork of next-optimized-images
-    - Package | https://www.npmjs.com/package/@mrroll/next-optimized-images
-    - Pull Request | https://github.com/cyrilwanner/next-optimized-images/pull/201
-    - Issue | https://github.com/cyrilwanner/next-optimized-images/issues/50
+  - Package | https://www.npmjs.com/package/@mrroll/next-optimized-images
+  - Pull Request | https://github.com/cyrilwanner/next-optimized-images/pull/201
+  - Issue | https://github.com/cyrilwanner/next-optimized-images/issues/50
 - Change eslint configuration.
 - Update dependencies.
 

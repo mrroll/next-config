@@ -13,11 +13,10 @@ module.exports = function withConfiguration(nextConfig = {}) {
      * https://nextjs.org/blog/next-9-4#new-environment-variables-support
      */
     // env: getEnvironment(),
-
     // Plugins
     // next-optimized-images
-    optimizeImages: true,
-    removeOriginalExtension: true,
+    // optimizeImages: true,withConfiguration
+    // removeOriginalExtension: true,withConfiguration
   };
   return {
     ...defaultOptions,

@@ -1,24 +1,13 @@
 {
   "name": "@mrroll/next-config",
-  "version": "6.1.0",
+  "version": "7.0.0",
   "description": "mrroll's Next.js config",
   "main": "main.js",
   "author": "mrroll",
   "license": "MIT",
   "dependencies": {
-    "@mrroll/next-optimized-images": "^2.6.2",
-    "image-trace-loader": "^1.0.2",
-    "imagemin-gifsicle": "^7.0.0",
-    "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^8.0.0",
     "lodash": "^4.17.20",
-    "lqip-loader": "^2.2.0",
-    "optimize-css-assets-webpack-plugin": "^5.0.4",
-    "responsive-loader": "^2.1.1",
-    "sharp": "^0.26.0",
-    "svg-sprite-loader": "5.0.0",
-    "webp-loader": "^0.6.0"
+    "optimize-css-assets-webpack-plugin": "^5.0.4"
   },
   "devDependencies": {
     "@mrroll/eslint-config": "^1.0.3",
