@@ -1,5 +1,4 @@
 const isArray = require("lodash/isArray");
-const get = require("lodash/get");
 
 module.exports = function cssModules({ config, dev, nextConfig }) {
   config.module.rules.forEach(rule => {
@@ -42,23 +41,5 @@ module.exports = function cssModules({ config, dev, nextConfig }) {
         }
       });
     });
-
-    /**
-     * Allow the use of Global S/CSS in any file with _app in it.
-     *
-     * Temporarily disable.
-     */
-    false &&
-      rule.oneOf.forEach(oneOf => {
-        const hasInclude = get(oneOf, "issuer.include");
-
-        if (!hasInclude) {
-          return;
-        }
-
-        if (hasInclude.includes("_app.js")) {
-          oneOf.issuer.include = [hasInclude, /_app/g];
-        }
-      });
   });
 };

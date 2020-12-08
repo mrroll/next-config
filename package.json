@@ -1,19 +1,20 @@
 {
   "name": "@mrroll/next-config",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "mrroll's Next.js config",
   "main": "main.js",
   "author": "mrroll",
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.20",
-    "optimize-css-assets-webpack-plugin": "^5.0.4"
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
-    "@mrroll/eslint-config": "^1.0.3",
-    "chokidar": "^3.4.2",
-    "eslint": "^7.8.1",
-    "prettier": "^2.1.1"
+    "@mrroll/eslint-config": "^1.0.7",
+    "chokidar": "^3.4.3",
+    "eslint": "^7.15.0",
+    "prettier": "^2.2.1"
   },
   "peerDependencies": {},
   "scripts": {
