@@ -1,5 +1,5 @@
 const OptimizeCssAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+// const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = function minifyCss({ config, dev }) {
   if (dev) {
@@ -16,9 +16,9 @@ module.exports = function minifyCss({ config, dev }) {
   );
   // Webpack 5.
   // Error: Cannot find module 'webpack/lib/RequestShortener'
-  config.optimization.minimize.push(
-    new CssMinimizerPlugin({
-      preset: ["default", { discardComments: { removeAll: true } }],
-    })
-  );
+  // config.optimization.minimize.push(
+  //   new CssMinimizerPlugin({
+  //     preset: ["default", { discardComments: { removeAll: true } }],
+  //   })
+  // );
 };
