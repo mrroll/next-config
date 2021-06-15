@@ -17,7 +17,7 @@ module.exports = function withConfiguration(nextConfig = {}) {
       // https://spectrum.chat/next-js/general/minification-of-css~8d5458ee-39e3-4706-a666-6c471e9fc7f8?m=MTU1MDY1MjIwNzU1NA==
       minifyCss({ config, dev });
 
-      if (nextConfig?.experimental?.enableStaticImages) {
+      if (!nextConfig?.disableStaticImages) {
         config.module.rules.forEach(rule => {
           if (
             String(rule?.test ?? "") ===
