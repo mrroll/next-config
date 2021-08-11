@@ -1,5 +1,4 @@
 const cssModules = require("./cssModules");
-const minifyCss = require("./minifyCss");
 
 module.exports = function withConfiguration(nextConfig = {}) {
   return {
@@ -13,10 +12,8 @@ module.exports = function withConfiguration(nextConfig = {}) {
 
       // Add S/CSS Options
       cssModules({ config, dev, nextConfig });
-      // Minify stuff
-      // https://spectrum.chat/next-js/general/minification-of-css~8d5458ee-39e3-4706-a666-6c471e9fc7f8?m=MTU1MDY1MjIwNzU1NA==
-      minifyCss({ config, dev });
 
+      // For SVGR
       if (!nextConfig?.disableStaticImages) {
         config.module.rules.forEach(rule => {
           if (
