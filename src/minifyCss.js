@@ -12,5 +12,5 @@ module.exports = function minifyCss({ config, dev }) {
         preset: ["default", { discardComments: { removeAll: true } }],
       },
     })
-
+  );
 };
