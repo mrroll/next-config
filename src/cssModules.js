@@ -22,7 +22,7 @@ module.exports = function cssModules({ config, dev, nextConfig }) {
 
         // css-loader options
         const isCssLoader =
-          loader.includes("css-loader") && !loader.includes("postcss-loader");
+          loader?.includes("css-loader") && !loader.includes("postcss-loader");
 
         if (isCssLoader) {
           if (options.modules) {
@@ -31,9 +31,24 @@ module.exports = function cssModules({ config, dev, nextConfig }) {
             options.modules.localIdentName = dev
               ? "[path][name]__[local]--[hash:base64:5]"
               : "[hash:base64:8]";
+            const originalGetLocalIdent = options.modules.getLocalIdent;
 
-            // Remove the functional computation of it.
-            delete options.modules.getLocalIdent;
+            // This is a pretty hacky way of doing this but localIdentName is ignored in NextJS ^12.
+            // https://github.com/vercel/next.js/blob/canary/packages/next/build/webpack/config/blocks/css/loaders/getCssModuleLocalIdent.ts
+            options.modules.getLocalIdent = dev
+              ? originalGetLocalIdent
+              : (...args) => {
+                  const computed = originalGetLocalIdent(...args);
+                  return (
+                    require("next/dist/compiled/loader-utils")
+                      .getHashDigest(Buffer.from(computed), "md5", "base64", 8) // Replace invalid symbols with underscores instead of escaping
+                      // https://mathiasbynens.be/notes/css-escapes#identifiers-strings
+                      .replace(/[^a-zA-Z0-9-_]/g, "_")
+                      // "they cannot start with a digit, two hyphens, or a hyphen followed by a digit [sic]"
+                      // https://www.w3.org/TR/CSS21/syndata.html#characters
+                      .replace(/^(\d|--|-\d)/, "__$1")
+                  );
+                };
 
             // Don't force pure css modules so we can use :global(.some-selector){}
             delete options.modules.mode;
