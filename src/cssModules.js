@@ -1,5 +1,22 @@
 const isArray = require("lodash/isArray");
 
+function findLoaderUtils() {
+  const paths = [
+    "next/dist/compiled/loader-utils",
+    "next/dist/compiled/loader-utils3",
+  ];
+
+  for (const loaderUtils of paths) {
+    try {
+      return require(loaderUtils);
+    } catch (error) {
+      // noop
+    }
+  }
+
+  return null;
+}
+
 module.exports = function cssModules({ config, dev, nextConfig }) {
   config.module.rules.forEach(rule => {
     if (!rule.oneOf) {
@@ -39,8 +56,18 @@ module.exports = function cssModules({ config, dev, nextConfig }) {
               ? originalGetLocalIdent
               : (...args) => {
                   const computed = originalGetLocalIdent(...args);
+
+                  const loaderUtils = findLoaderUtils();
+
+                  if (loaderUtils === null) {
+                    console.warn(
+                      "+++ Warning: loader-utils not found. Falling back to original CSS Class Names."
+                    );
+                    return computed;
+                  }
+
                   return (
-                    require("next/dist/compiled/loader-utils")
+                    loaderUtils
                       .getHashDigest(Buffer.from(computed), "md5", "base64", 8) // Replace invalid symbols with underscores instead of escaping
                       // https://mathiasbynens.be/notes/css-escapes#identifiers-strings
                       .replace(/[^a-zA-Z0-9-_]/g, "_")
