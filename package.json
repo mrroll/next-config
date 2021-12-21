@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "10.1.0",
+  "version": "11.0.0",
   "description": "mrroll's Next.js config",
   "main": "main.js",
   "author": "mrroll",
@@ -9,10 +9,10 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@mrroll/eslint-config": "^4.0.0",
+    "@mrroll/eslint-config": "^5.0.0",
     "chokidar": "^3.5.2",
-    "eslint": "^7.32.0",
-    "prettier": "^2.4.1"
+    "eslint": "^8.5.0",
+    "prettier": "^2.5.1"
   },
   "peerDependencies": {
     "next": "^12.0.0"
