@@ -3,6 +3,9 @@ const cssModules = require("./cssModules");
 module.exports = function withConfiguration(nextConfig = {}) {
   return {
     ...nextConfig,
+
+    experimental: { images: { layoutRaw: true } },
+
     webpack: function getWebpackConfig(config, options) {
       const { buildId, dev, isServer, defaultLoaders, webpack } = options;
 
