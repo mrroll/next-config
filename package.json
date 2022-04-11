@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "12.0.0",
+  "version": "12.0.1",
   "main": "src/index.js",
   "author": "mrroll",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "next-plugin-svgr": "^1.1.1"
   },
   "devDependencies": {
-    "@mrroll/eslint-config": "^6.2.2",
+    "@mrroll/eslint-config": "^7.0.0",
     "chokidar": "^3.5.3",
     "eslint": "^8.13.0",
     "prettier": "^2.6.2"
