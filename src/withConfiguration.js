@@ -1,11 +1,12 @@
+const merge = require("lodash/fp/merge");
 const cssModules = require("./cssModules");
 
 module.exports = function withConfiguration(nextConfig = {}) {
-  return {
-    ...nextConfig,
+  const defaults = { experimental: { images: { layoutRaw: true } } };
 
-    experimental: { images: { layoutRaw: true } },
+  const combined = merge(defaults, nextConfig);
 
+  const webpack = {
     webpack: function getWebpackConfig(config, options) {
       const { buildId, dev, isServer, defaultLoaders, webpack } = options;
 
@@ -26,5 +27,10 @@ module.exports = function withConfiguration(nextConfig = {}) {
 
       return config;
     },
+  };
+
+  return {
+    ...combined,
+    ...webpack,
   };
 };
