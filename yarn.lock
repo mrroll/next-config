@@ -1149,10 +1149,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config@^8.1.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config/-/eslint-config-8.1.0.tgz#ec103195bc125f90209187e8052ad5c1d9fadc6f"
-  integrity sha512-SwSlSqYP+oqm0uW1F8l3UHXq+QBpkJKHk+sMSriXGqi+SCdl9ENkvUx46BkX0vnnykD7CcQLyfFSsFOCVdzP6A==
+"@mrroll/eslint-config@^8.4.0":
+  version "8.4.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config/-/eslint-config-8.4.0.tgz#15d68d29ce2f74d75c432d3499840b75d61c1936"
+  integrity sha512-diFgOLJ5CuSmhTysGXbH4JZFIkNsG8SSLhmhvyMxLXKrTELtw/Q5sV9JMflZtAkkvDhklsKYqIAMZ8yLuuUstg==
   dependencies:
     "@babel/core" "^7.17.10"
     "@babel/eslint-parser" "^7.17.0"
