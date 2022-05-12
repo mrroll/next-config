@@ -10,6 +10,9 @@ module.exports = function withConfiguration(nextConfig = {}) {
     webpack: function getWebpackConfig(config, options) {
       const { buildId, dev, isServer, defaultLoaders, webpack } = options;
 
+      // https://stackoverflow.com/a/68098547
+      config.resolve.fallback = { fs: false };
+
       /**
        * Functions below MUTATE the config object
        */
