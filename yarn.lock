@@ -1248,10 +1248,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config@^8.29.0":
-  version "8.29.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config/-/eslint-config-8.29.0.tgz#c739cb17ef77d01d317731c8e5fd9e3005a281b4"
-  integrity sha512-BHtjdeKNENBOZ6OyDngJYRva6f2DkKv/fOD1LEiosxh13mjSPqC3ZDe0Qc01sqSdwLsTjNQxZxXCJuUiVcge5g==
+"@mrroll/eslint-config@^8.30.0":
+  version "8.30.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config/-/eslint-config-8.30.0.tgz#9ba5731f54f0607b416da30d552e27c545f8d94d"
+  integrity sha512-Wb2+DEIk9zAwIx1Fjjgft4NvkCD+EoO6HHQnFqN8qqyYmos/wD3W09ru5ND+E/YeV0F5EDMJi0daZlzv+M1Lcg==
   dependencies:
     "@babel/core" "^7.18.5"
     "@babel/eslint-parser" "^7.18.2"
@@ -3336,10 +3336,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.0.tgz#a4fdae07e5596c51c9857ea676cd41a0163879d6"
-  integrity sha512-nwoX4GMFgxoPC6diHvSwmK/4yU8FFH3V8XWtLQrbj4IBsK2pkYhG4kf/ljF/haaZ/aii+wNJqISrCDPgxGWDVQ==
+prettier@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
+  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
 prop-types@^15.8.1:
   version "15.8.1"
