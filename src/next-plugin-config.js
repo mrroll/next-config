@@ -1,7 +1,11 @@
 const merge = require("lodash/fp/merge");
 
 module.exports = function withConfiguration(config) {
-  const defaults = { experimental: { images: { layoutRaw: true } } };
+  const defaults = {
+    experimental: {
+      images: { layoutRaw: true, allowFutureImage: true, unoptimized: true },
+    },
+  };
 
   return {
     ...merge(defaults, config),
