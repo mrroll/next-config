@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "12.37.0",
+  "version": "12.38.0",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrroll/next-config/issues"
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "next-plugin-svgr": "^1.1.1",
+    "next-plugin-svgr": "^1.1.2",
     "object-traversal": "^1.0.1"
   },
   "peerDependencies": {

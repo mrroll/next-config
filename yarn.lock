@@ -3206,10 +3206,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-plugin-svgr@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/next-plugin-svgr/-/next-plugin-svgr-1.1.1.tgz#d0d27ce1a06150264e3e314334406a5bd21563d4"
-  integrity sha512-F2wxx4I/rVHF+7oR3vNiglMq/n1xdolmyGPjDzVlUBY67uR6ZSrpDgTinO50XpwPWv7RpGXow6Dk8VcyEq99IA==
+next-plugin-svgr@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/next-plugin-svgr/-/next-plugin-svgr-1.1.2.tgz#993d02b2f365ad7191188ead78b54964986402fe"
+  integrity sha512-26HNVpgMbdhevepxejK/Lq3NH4WkmQbhcI+wW0zDTkF2AZj5c/w8Y06phWF7HkfD4bAMjqd9+ofh4TWhkPKyWA==
   dependencies:
     "@svgr/webpack" "^6.2.0"
     file-loader "^6.2.0"
