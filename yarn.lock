@@ -1328,10 +1328,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config@^9.17.0":
-  version "9.17.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config/-/eslint-config-9.17.0.tgz#53294791740e23629123b5b723a47b304c3bfe25"
-  integrity sha512-eF/lCqvD9GLTM06Pb5Xcci0kqXS9SjiY6wfD0YFsCo5gKaE0W671fbW5t3qRENwO7H9Gx7RgtIRG/OKhorcMBg==
+"@mrroll/eslint-config@^9.18.0":
+  version "9.18.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config/-/eslint-config-9.18.0.tgz#6be484d5831cb80ef4f30d662b92ac4f079ead39"
+  integrity sha512-CIvTVsKRsQXJAeInRpQjZpo2s+SxI047x7SJvZd0aEESCZsliR+7m5L5dAwrY+KoQvxFBrjuOqJfTrpX8G71DQ==
   dependencies:
     "@babel/core" "^7.18.10"
     "@babel/eslint-parser" "^7.18.9"
@@ -1343,7 +1343,7 @@
     eslint-config-airbnb-base "^15.0.0"
     eslint-config-airbnb-typescript "^17.0.0"
     eslint-config-prettier "^8.5.0"
-    eslint-import-resolver-typescript "^3.4.0"
+    eslint-import-resolver-typescript "^3.4.1"
     eslint-plugin-import "^2.26.0"
     eslint-plugin-jsx-a11y "^6.6.1"
     eslint-plugin-prettier "^4.2.1"
@@ -2347,10 +2347,10 @@ eslint-import-resolver-node@^0.3.6:
     debug "^3.2.7"
     resolve "^1.20.0"
 
-eslint-import-resolver-typescript@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.4.0.tgz#a7e334b86d638f49956f2b0dfbde29daa9c32dcd"
-  integrity sha512-rBCgiEovwX/HQ8ESWV+XIWZaFiRtDeAXNZdcTATB8UbMuadc9qfGOlIP+vy+c7nsgfEBN4NTwy5qunGNptDP0Q==
+eslint-import-resolver-typescript@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.4.1.tgz#072e5f7b4bf5d62d32d0b3a071fe551b45d15454"
+  integrity sha512-rcD4V2nnxk76JF6nuLcclGpya18KLhr/lwpl5xFXrVWZtdRSepfCGHk/oFn9HNstWX317Nuo/E3Z1vymPyPhlQ==
   dependencies:
     debug "^4.3.4"
     enhanced-resolve "^5.10.0"
