@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "12.48.0",
+  "version": "12.49.0",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrroll/next-config/issues"
@@ -12,7 +12,7 @@
     "prepublishOnly": "yarn install"
   },
   "volta": {
-    "node": "16.16.0",
+    "node": "16.17.0",
     "yarn": "1.22.19"
   },
   "dependencies": {
@@ -24,7 +24,7 @@
     "next": "^12.0.0"
   },
   "devDependencies": {
-    "@mrroll/eslint-config": "^10.2.0",
+    "@mrroll/eslint-config": "^10.3.0",
     "eslint": "^8.22.0",
     "prettier": "^2.7.1"
   }
