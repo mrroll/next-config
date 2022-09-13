@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "12.59.0",
+  "version": "12.60.0",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrroll/next-config/issues"
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@mrroll/eslint-config": "^10.14.0",
-    "eslint": "^8.23.0",
+    "eslint": "^8.23.1",
     "prettier": "^2.7.1"
   }
 }
