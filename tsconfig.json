@@ -1,0 +1,18 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/plugin": ["src"],
+      "@/helpers/*": ["src/helpers/*"]
+    },
+    "outDir": "lib",
+    "declaration": true
+  },
+  "include": ["src/**/*.ts", "src/**/.*.ts", "src/**/*.js", "src/**/.*.js"],
+  "exclude": ["node_moudles", "lib"],
+  "ts-node": {
+    "swc": true
+  }
+}

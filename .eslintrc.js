@@ -1,5 +1,5 @@
-require("@mrroll/eslint-config/patch");
+require('@mrroll/eslint-config-typescript/patch');
 
 module.exports = {
-  extends: ["@mrroll/eslint-config"],
+  extends: ['@mrroll/eslint-config-typescript'],
 };

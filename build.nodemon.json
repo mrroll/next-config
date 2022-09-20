@@ -1,0 +1,6 @@
+{
+  "signal": "SIGINT",
+  "ext": "js,mjs,json,ts,jsx,tsx",
+  "exec": "yarn build && yalc push",
+  "ignore": "lib"
+}

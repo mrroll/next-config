@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*.ts", "src/**/.*.ts", "src/**/*.js", "src/**/.*.js"],
+  "exclude": [
+    "node_moudles",
+    "lib",
+    "**/*.test.ts",
+    "**/.*.test.ts",
+    "**/*.test.js",
+    "**/.*.test.js"
+  ]
+}

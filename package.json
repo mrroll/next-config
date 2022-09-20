@@ -1,31 +1,55 @@
 {
   "name": "@mrroll/next-config",
-  "version": "12.60.0",
+  "version": "13.0.0",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mrroll/next-config/issues"
+  "engines": {
+    "node": "^14.19.0 || ^16.10.0 || >=17.0.0"
   },
-  "homepage": "https://github.com/mrroll/next-config#readme",
+  "repository": "https://github.com/mrroll/next-config",
   "author": "mrroll",
-  "main": "src/index.js",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*.js"
+  },
+  "files": [
+    "/lib/**/*"
+  ],
   "scripts": {
-    "prepublishOnly": "yarn install"
+    "build": "npm-run-all --sequential build:clean build:typescript build:alias",
+    "build:alias": "tsc-alias --project build.tsconfig.json --verbose",
+    "build:clean": "rimraf ./lib",
+    "build:typescript": "cross-env NODE_ENV=production TZ=UTC tsc --project build.tsconfig.json",
+    "dev": "npm-run-all --parallel dev:watch dev:build",
+    "dev:build": "cross-env NODE_ENV=development TZ=UTC nodemon --config build.nodemon.json"
   },
   "volta": {
     "node": "16.17.0",
     "yarn": "1.22.19"
   },
   "dependencies": {
-    "lodash": "^4.17.21",
-    "next-plugin-svgr": "^1.1.2",
-    "object-traversal": "^1.0.1"
-  },
-  "peerDependencies": {
-    "next": "^12.0.0"
+    "@svgr/webpack": "^6.3.1",
+    "css-loader": "^6.7.1",
+    "ts-deepmerge": "^4.0.0"
   },
   "devDependencies": {
-    "@mrroll/eslint-config": "^10.14.0",
+    "@mrroll/eslint-config-typescript": "^0.13.0",
+    "@swc/core": "^1.3.2",
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^16.11.59",
+    "cross-env": "^7.0.3",
     "eslint": "^8.23.1",
-    "prettier": "^2.7.1"
+    "next": "^12.3.1",
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.7.0",
+    "typescript": "^4.8.3",
+    "vite-tsconfig-paths": "^3.5.0",
+    "vitest": "^0.23.4",
+    "webpack": "^5.74.0",
+    "yalc": "^1.0.0-pre.53"
   }
 }
