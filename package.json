@@ -20,7 +20,7 @@
     "build:alias": "tsc-alias --project build.tsconfig.json --verbose",
     "build:clean": "rimraf ./lib",
     "build:typescript": "cross-env NODE_ENV=production TZ=UTC tsc --project build.tsconfig.json",
-    "dev": "npm-run-all --parallel dev:watch dev:build",
+    "dev": "npm-run-all --parallel dev:build",
     "dev:build": "cross-env NODE_ENV=development TZ=UTC nodemon --config build.nodemon.json"
   },
   "volta": {
