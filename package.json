@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "13.11.0",
+  "version": "13.12.0",
   "license": "MIT",
   "engines": {
     "node": "^14.19.0 || ^16.10.0 || >=17.0.0"
@@ -20,8 +20,9 @@
     "build:alias": "tsc-alias --project build.tsconfig.json --verbose",
     "build:clean": "rimraf ./lib",
     "build:typescript": "cross-env NODE_ENV=production TZ=UTC tsc --project build.tsconfig.json",
-    "dev": "npm-run-all --parallel dev:build",
-    "dev:build": "cross-env NODE_ENV=development TZ=UTC nodemon --config build.nodemon.json"
+    "dev": "npm-run-all --parallel dev:watch dev:build",
+    "dev:build": "cross-env NODE_ENV=development TZ=UTC nodemon --config build.nodemon.json",
+    "dev:watch": "cross-env NODE_ENV=development TZ=UTC TS_NODE_BASEURL=. nodemon --config nodemon.json ./src/dev.ts"
   },
   "volta": {
     "node": "16.17.1",

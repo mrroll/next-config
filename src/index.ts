@@ -5,7 +5,7 @@ import type { Configuration } from 'webpack';
 import defaultConfig from './config';
 import defaultWebpack from './webpack';
 
-const withConfig = (config: NextConfig) => {
+const withConfig = (config: NextConfig = {}) => {
   const { webpack, ...rest } = config;
 
   const updatedConfig = {
