@@ -1107,10 +1107,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.26.0":
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.26.0.tgz#312727606471d23dd1416b01f36b7d5116c935ff"
-  integrity sha512-e33oN6C7khKNykXkTTv6VqSxGyR7g4QTbxMXSNxEUyXr4W3uWW/wFhjCOd+PlxphXuCbTuBAUjsW6nKGZ1jtjw==
+"@mrroll/eslint-config-typescript@^0.29.0":
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.29.0.tgz#fd15a0ca74cec15509b41131ff1f5cac4d3847f1"
+  integrity sha512-7VDdUcoipROzUzmmcTfrj3+5Ae1yxVNMTVtI/yW8bToyRWol5xy71wuTWXNQJ0CRUi/4km1fGk3UYuQpP9SvcA==
   dependencies:
     "@next/eslint-plugin-next" "^12.3.1"
     "@rushstack/eslint-patch" "^1.2.0"
@@ -1121,7 +1121,7 @@
     eslint-plugin-import "^2.26.0"
     eslint-plugin-jsx-a11y "^6.6.1"
     eslint-plugin-prettier "^4.2.1"
-    eslint-plugin-react "^7.31.9"
+    eslint-plugin-react "^7.31.10"
     eslint-plugin-react-hooks "^4.6.0"
     eslint-plugin-react-native "^4.0.0"
     semver "^7.3.8"
@@ -2665,10 +2665,10 @@ eslint-plugin-react-native@^4.0.0:
     "@babel/traverse" "^7.7.4"
     eslint-plugin-react-native-globals "^0.1.1"
 
-eslint-plugin-react@^7.31.9:
-  version "7.31.9"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.31.9.tgz#7474ad4e21db368f61d17e1f2e78d43dbbdd50b2"
-  integrity sha512-vrVJwusIw4L99lyfXjtCw8HWdloajsiYslMavogrBe2Gl8gr95TJsJnOMRasN4b4N24I3XuJf6aAV6MhyGmjqw==
+eslint-plugin-react@^7.31.10:
+  version "7.31.10"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.31.10.tgz#6782c2c7fe91c09e715d536067644bbb9491419a"
+  integrity sha512-e4N/nc6AAlg4UKW/mXeYWd3R++qUano5/o+t+wnWxIf+bLsOaH3a4q74kX3nDjYym3VBN4HyO9nEn1GcAqgQOA==
   dependencies:
     array-includes "^3.1.5"
     array.prototype.flatmap "^1.3.0"
