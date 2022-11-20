@@ -1187,10 +1187,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.57.0":
-  version "0.57.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.57.0.tgz#534c72e52544c623d053ff0cca79f2f1336d422a"
-  integrity sha512-I4E7RODHRs49ZBF7RK8Yz0LYwd33QlkA9mZobTBWSLa6k2+y05XCFQsBC0jFEv3DO+djgYRqLGeKFQr7q7ynQA==
+"@mrroll/eslint-config-typescript@^0.58.0":
+  version "0.58.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.58.0.tgz#c5076fdbc0d546833462643f184c40d758d57383"
+  integrity sha512-5HHCe+JZrxA1BQ5UjPdd/Dz1lBtGkmDUZJ6CXDPJJD3sxFq12Douw3/FEvdhc2tMS1LOXlczHjPqhbTEA3pbvw==
   dependencies:
     "@next/eslint-plugin-next" "^13.0.4"
     "@rushstack/eslint-patch" "^1.2.0"
@@ -4838,10 +4838,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-vite-tsconfig-paths@^3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-3.5.2.tgz#fd3232f93c426311d7e0d581187d8b63fff55fbc"
-  integrity sha512-xJMgHA2oJ28QCG2f+hXrcqzo7IttrSRK4A//Tp94CfuX5eetOx33qiwXHUdi3FwkHP2ocpxHuvE45Ix67gwEmQ==
+vite-tsconfig-paths@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-3.6.0.tgz#9e6363051b2caaf7c7cec6f9f85ad71feee77920"
+  integrity sha512-UfsPYonxLqPD633X8cWcPFVuYzx/CMNHAjZTasYwX69sXpa4gNmQkR0XCjj82h7zhLGdTWagMjC1qfb9S+zv0A==
   dependencies:
     debug "^4.1.1"
     globrex "^0.1.2"
