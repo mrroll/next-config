@@ -1282,10 +1282,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.74.0":
-  version "0.74.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.74.0.tgz#1cd88abfa6309d65a6f9ba80fa84e6788c48d5cb"
-  integrity sha512-RcSGacD/3WbVZSDzpOpR7Qgofark/YfDomPXfGISL7Q28Yq3LSW7hLZSEUaQyR7ldPoEPeBU22Lxprw5s/+gdQ==
+"@mrroll/eslint-config-typescript@^0.75.0":
+  version "0.75.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.75.0.tgz#de778f6b2dfee62abb4fe23767b037cf61cbbcaf"
+  integrity sha512-/LYlk4SFM/tymqPde6L9rj7K7VILUoMNEa6TZX6k/TgakIPFjfiMyDKGEDtVPxXyfZn26WuH149qVBMWfq7w+w==
   dependencies:
     "@next/eslint-plugin-next" "^13.0.7"
     "@rushstack/eslint-patch" "^1.2.0"
@@ -1678,10 +1678,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.16.tgz#0eb3cce1e37c79619943d2fd903919fc30850601"
   integrity sha512-EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==
 
-"@types/node@^18.11.16":
-  version "18.11.16"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.16.tgz#966cae211e970199559cfbd295888fca189e49af"
-  integrity sha512-6T7P5bDkRhqRxrQtwj7vru+bWTpelgtcETAZEUSdq0YISKz8WKdoBukQLYQQ6DFHvU9JRsbFq0JH5C51X2ZdnA==
+"@types/node@^18.11.17":
+  version "18.11.17"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.17.tgz#5c009e1d9c38f4a2a9d45c0b0c493fe6cdb4bcb5"
+  integrity sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
