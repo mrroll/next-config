@@ -1281,10 +1281,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.89.0":
-  version "0.89.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.89.0.tgz#d3ee7b3af1b29d7e2fc4c4d99e51aac880d57737"
-  integrity sha512-He7DybTJZV3QFN4NAgKLlE4DxSj3N5n3yITzYaHuuYT6MH5q1ryGlDdKMZzCoxQRj6aVNdzbjRcTApqkbDWEzw==
+"@mrroll/eslint-config-typescript@^0.90.0":
+  version "0.90.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.90.0.tgz#269203d867b526ab8c0fba247a93ffab50e9bcf3"
+  integrity sha512-x/6Xk4ge843WTvgJr2+00iyltJp445KQtmMVld8VV/5OarZcEZIOJyAc3ctGMB+63HDvV+ibRp0KimzRD+cWww==
   dependencies:
     "@next/eslint-plugin-next" "^13.1.2"
     "@rushstack/eslint-patch" "^1.2.0"
@@ -5004,10 +5004,10 @@ vite-node@0.27.2:
     source-map-support "^0.5.21"
     vite "^3.0.0 || ^4.0.0"
 
-vite-tsconfig-paths@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.0.3.tgz#6a3a29f5a32fb2cb0001361875e760dd436fdc09"
-  integrity sha512-gRO2Q/tOkV+9kMht5tz90+IaEKvW2zCnvwJV3tp2ruPNZOTM5rF+yXorJT4ggmAMYEaJ3nyXjx5P5jY5FwiZ+A==
+vite-tsconfig-paths@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.0.5.tgz#c7c54e2cf7ccc5e600db565cecd7b368a1fa8889"
+  integrity sha512-/L/eHwySFYjwxoYt1WRJniuK/jPv+WGwgRGBYx3leciR5wBeqntQpUE6Js6+TJemChc+ter7fDBKieyEWDx4yQ==
   dependencies:
     debug "^4.1.1"
     globrex "^0.1.2"
