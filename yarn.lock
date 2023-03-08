@@ -1286,10 +1286,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.122.0":
-  version "0.122.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.122.0.tgz#b06f8a193833978001e7ba6a91f72768014bb1f9"
-  integrity sha512-WVz6Tv41qqd3hm8BZg0ykr0xubmXAULVpN8inGxh6TpN9Jg4Mz9nnL8RzGU5cwRMi5pLWTaeGkmVJaVZ8B+T4w==
+"@mrroll/eslint-config-typescript@^0.123.0":
+  version "0.123.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.123.0.tgz#fd52cafac872ef601391c48fed07af6d06c6afaf"
+  integrity sha512-QvllH7CnuPsTliRhEPv3j/3wktQHT2LKQEzMBdvW4qR0DgkPeQWiUeiU41wSljhUSL6OPsQ3xQni2nKwNzfZyg==
   dependencies:
     "@next/eslint-plugin-next" "^13.2.3"
     "@rushstack/eslint-patch" "^1.2.0"
