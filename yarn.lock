@@ -1298,10 +1298,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.127.0":
-  version "0.127.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.127.0.tgz#f451625b6b1c1d56c7957534afaf7eaf6f1624eb"
-  integrity sha512-FRSrOi4XAZ+TYw9WtqYySG1Jc7uH3aIEPNtKI+7//dURjYZqtEqNrSW9AVnDEdLxCcwuv2lUfzzNTkIdUX8QXw==
+"@mrroll/eslint-config-typescript@^0.128.0":
+  version "0.128.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.128.0.tgz#f7cc5b2913f56946f1c774b6b2644fdde2eb15cf"
+  integrity sha512-9byXlkgLOOZ0zl9KIfYa5vFgHHBotd5UDta6OkI5uvpaZu5fKjhz2DYwcqN+j02vLKxowZawS87oGp9VZ9mAXA==
   dependencies:
     "@next/eslint-plugin-next" "^13.2.4"
     "@rushstack/eslint-patch" "^1.2.0"
@@ -1694,10 +1694,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.16.tgz#0eb3cce1e37c79619943d2fd903919fc30850601"
   integrity sha512-EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==
 
-"@types/node@^18.15.2":
-  version "18.15.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.2.tgz#0407ceb15647f186318101546d5ae40725b73810"
-  integrity sha512-sDPHm2wfx2QhrMDK0pOt2J4KLJMAcerqWNvnED0itPRJWvI+bK+uNHzcH1dFsBlf7G3u8tqXmRF3wkvL9yUwMw==
+"@types/node@^18.15.3":
+  version "18.15.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.3.tgz#f0b991c32cfc6a4e7f3399d6cb4b8cf9a0315014"
+  integrity sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -5179,10 +5179,10 @@ vite-node@0.29.2:
     picocolors "^1.0.0"
     vite "^3.0.0 || ^4.0.0"
 
-vite-tsconfig-paths@^4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.0.5.tgz#c7c54e2cf7ccc5e600db565cecd7b368a1fa8889"
-  integrity sha512-/L/eHwySFYjwxoYt1WRJniuK/jPv+WGwgRGBYx3leciR5wBeqntQpUE6Js6+TJemChc+ter7fDBKieyEWDx4yQ==
+vite-tsconfig-paths@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.0.7.tgz#e109036d4890029e9539291e08a84ac01ef8dec4"
+  integrity sha512-MwIYaby6kcbQGZqMH+gAK6h0UYQGOkjsuAgw4q6bP/5vWkn8VKvnmLuCQHA2+IzHAJHnE8OFTO4lnJLFMf9+7Q==
   dependencies:
     debug "^4.1.1"
     globrex "^0.1.2"
