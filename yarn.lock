@@ -1298,10 +1298,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.132.0":
-  version "0.132.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.132.0.tgz#a11b2030888bff07dabe4a5a8e1f9177d3adfc56"
-  integrity sha512-p2f5KayUISHPfv0vSadn51naGKjCmWuxidN4oN1QBBp9EHCK3KAuqJwRX4kfsMJzZFU+o8WhWFAv4eWrtkCdjQ==
+"@mrroll/eslint-config-typescript@^0.134.0":
+  version "0.134.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.134.0.tgz#fb4e43e788f1b2c400a010a9773a8c39d4870108"
+  integrity sha512-z9LaWrMqYtE62Bp5EtYrPhk4BHqqiwlOlYBY+LzkUbAl+PL+lmJ3A3crG64KXqAZez+rpZeCrRDSy/y9nuWLdQ==
   dependencies:
     "@next/eslint-plugin-next" "^13.2.4"
     "@rushstack/eslint-patch" "^1.2.0"
@@ -4383,10 +4383,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.8.5:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.5.tgz#3dd8ae1ebddc4f6aa419c9b64d8c8319a7e0d982"
-  integrity sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==
+prettier@^2.8.6:
+  version "2.8.6"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.6.tgz#5c174b29befd507f14b83e3c19f83fdc0e974b71"
+  integrity sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==
 
 pretty-format@^27.5.1:
   version "27.5.1"
@@ -5019,10 +5019,10 @@ ts-node@^10.9.1:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tsc-alias@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/tsc-alias/-/tsc-alias-1.8.3.tgz#fe0c8331edd69b94160b2b936752b114f8063cb5"
-  integrity sha512-/9JARcmXBrEqSuLjdSOqxY7/xI/AnvmBi4CU9/Ba2oX6Oq8vnd0OGSQTk+PIwqWJ5ZxskV0X/x15yzxCNTHU+g==
+tsc-alias@^1.8.4:
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/tsc-alias/-/tsc-alias-1.8.4.tgz#d604db6770368bda6a810262000a484282bc2507"
+  integrity sha512-+3Zr4yXCZqphsA+TXNipFr2uag3i8+VwUamkvd6QpdwzQHMqYL3T4CMx+/TP0hs3LIj5OJBLQSZBDgxET/8cbw==
   dependencies:
     chokidar "^3.5.3"
     commander "^9.0.0"
