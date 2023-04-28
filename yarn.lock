@@ -1387,10 +1387,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.160.0":
-  version "0.160.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.160.0.tgz#3febfd9840e213611f7a2009c50f041ebc868d53"
-  integrity sha512-vf+MvTktJBsroIoB5odcu39nxVJH+tghGk6J1d3O7psVer/6nj9mol4Qn0OSRWiv3V2x09TnW3MMRvOo60UTaQ==
+"@mrroll/eslint-config-typescript@^0.161.0":
+  version "0.161.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.161.0.tgz#f322258c1d6f69db979a8f9fb73691908618a9f7"
+  integrity sha512-p0w68saVRxGyykv1NkiCjNy+/EX2M3rpvWEjrBXUX446dC4v9hwEgTGKDFrGyNLOe8ZoEqi8NwDrEs+Oe/vRPA==
   dependencies:
     "@next/eslint-plugin-next" "^13.3.1"
     "@rushstack/eslint-patch" "^1.2.0"
@@ -1757,10 +1757,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.16.tgz#0eb3cce1e37c79619943d2fd903919fc30850601"
   integrity sha512-EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==
 
-"@types/node@^18.16.1":
-  version "18.16.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.1.tgz#5db121e9c5352925bb1f1b892c4ae620e3526799"
-  integrity sha512-DZxSZWXxFfOlx7k7Rv4LAyiMroaxa3Ly/7OOzZO8cBNho0YzAi4qlbrx8W27JGqG57IgR/6J7r+nOJWw6kcvZA==
+"@types/node@^18.16.2":
+  version "18.16.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.16.2.tgz#2f610ea71034b3971c312192377f8a7178eb57f1"
+  integrity sha512-GQW/JL/5Fz/0I8RpeBG9lKp0+aNcXEaVL71c0D2Q0QHDTFvlYKT7an0onCUXj85anv7b4/WesqdfchLc0jtsCg==
 
 "@types/semver@^7.3.12":
   version "7.3.12"
@@ -5109,10 +5109,10 @@ ts-node@^10.9.1:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tsc-alias@^1.8.5:
-  version "1.8.5"
-  resolved "https://registry.yarnpkg.com/tsc-alias/-/tsc-alias-1.8.5.tgz#6b74e938230573354c9118deb58fd341d06d6253"
-  integrity sha512-Y3ka0olwSRdbHPyX5kXhYY2aoBKuT53DFdeY+PpQUR4hg5M/b8eIRmC8dL4FBdd0wT366iWc6iDUUGe6QwI7mg==
+tsc-alias@^1.8.6:
+  version "1.8.6"
+  resolved "https://registry.yarnpkg.com/tsc-alias/-/tsc-alias-1.8.6.tgz#28300ed398e90b1c600548ed956f58dfbecc1589"
+  integrity sha512-vq+i6VpE83IeMsSJVcFN03ZBofADhr8/gIJXjxpbnTRfN/MFXy0+SBaKG2o7p95QqXBGkeG98HYz3IkOOveFbg==
   dependencies:
     chokidar "^3.5.3"
     commander "^9.0.0"
