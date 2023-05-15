@@ -19,4 +19,5 @@ const withConfig = (config: NextConfig = {}) => {
   return updatedConfig;
 };
 
-export = withConfig;
+module.exports = withConfig;
+export default withConfig;
