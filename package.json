@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "13.167.0",
+  "version": "13.168.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -47,10 +47,10 @@
     "rimraf": "^4.4.1",
     "ts-node": "^10.9.1",
     "tsc-alias": "^1.8.6",
-    "typescript": "^5.0.4",
+    "typescript": "^5.1.3",
     "vite-tsconfig-paths": "^4.2.0",
-    "vitest": "^0.31.2",
-    "webpack": "^5.84.1",
+    "vitest": "^0.31.4",
+    "webpack": "^5.85.0",
     "yalc": "^1.0.0-pre.53"
   }
 }
