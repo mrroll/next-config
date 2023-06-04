@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "13.169.0",
+  "version": "13.170.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@mrroll/eslint-config-typescript": "^0.181.0",
-    "@swc/core": "^1.3.61",
+    "@swc/core": "^1.3.62",
     "@tsconfig/node18": "^2.0.1",
     "@types/node": "^18.16.16",
     "cross-env": "^7.0.3",
