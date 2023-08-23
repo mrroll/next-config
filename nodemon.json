@@ -1,6 +1,6 @@
 {
   "signal": "SIGINT",
   "ext": "js,mjs,json,ts,jsx,tsx",
-  "exec": "node --require ts-node/register --require tsconfig-paths/register --inspect=127.0.0.1:0",
+  "exec": "tsx --inspect=127.0.0.1:0",
   "ignore": "lib"
 }
