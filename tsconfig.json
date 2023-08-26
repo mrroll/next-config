@@ -7,8 +7,5 @@
     "declaration": true
   },
   "include": ["src/**/*.ts", "src/**/.*.ts", "src/**/*.js", "src/**/.*.js"],
-  "exclude": ["node_moudles", "lib"],
-  "ts-node": {
-    "swc": true
-  }
+  "exclude": ["node_moudles", "lib"]
 }
