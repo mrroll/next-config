@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "13.222.0",
+  "version": "13.223.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -34,7 +34,7 @@
     "ts-deepmerge": "^6.2.0"
   },
   "devDependencies": {
-    "@mrroll/eslint-config-typescript": "^0.234.0",
+    "@mrroll/eslint-config-typescript": "^0.235.0",
     "@tsconfig/node18": "^18.2.1",
     "@types/node": "^18.17.15",
     "cross-env": "^7.0.3",
@@ -47,7 +47,7 @@
     "tsc-alias": "^1.8.7",
     "tsx": "^3.12.8",
     "typescript": "^5.2.2",
-    "vite-tsconfig-paths": "^4.2.0",
+    "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.34.4",
     "webpack": "^5.88.2",
     "yalc": "^1.0.0-pre.53"
