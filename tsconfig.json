@@ -3,6 +3,9 @@
   "compilerOptions": {
     "allowJs": true,
     "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "outDir": "lib",
     "declaration": true
   },

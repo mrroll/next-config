@@ -1,14 +1,15 @@
 import type { NextConfig } from 'next';
 import type { WebpackConfigContext } from 'next/dist/server/config-shared';
 import type { Configuration } from 'webpack';
-import resolve from './resolve';
-import css from './css';
-import svgr from './svgr';
+
+import css from '@/webpack/css';
+import resolve from '@/webpack/resolve';
+import svgr from '@/webpack/svgr';
 
 export default function webpack(
   config: Configuration,
   configContext: WebpackConfigContext,
-  configWebPack: NextConfig['webpack']
+  configWebPack: NextConfig['webpack'],
 ) {
   resolve(config);
 
@@ -17,7 +18,7 @@ export default function webpack(
   svgr(config);
 
   if (typeof configWebPack === 'function') {
-    return configWebPack(config, configContext);
+    return configWebPack(config, configContext) as unknown;
   }
 
   return config;

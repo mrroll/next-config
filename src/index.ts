@@ -1,9 +1,10 @@
-import merge from 'ts-deepmerge';
 import type { NextConfig } from 'next';
 import type { WebpackConfigContext } from 'next/dist/server/config-shared';
+import merge from 'ts-deepmerge';
 import type { Configuration } from 'webpack';
-import defaultConfig from './config';
-import defaultWebpack from './webpack';
+
+import defaultConfig from '@/config';
+import defaultWebpack from '@/webpack';
 
 const withConfig = (config: NextConfig = {}) => {
   const { webpack, ...rest } = config;

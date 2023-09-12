@@ -1,10 +1,10 @@
+import { defaultGetLocalIdent } from 'css-loader';
 import type { WebpackConfigContext } from 'next/dist/server/config-shared';
 import type { Configuration } from 'webpack';
-import { defaultGetLocalIdent } from 'css-loader';
 
 export default function css(
   config: Configuration,
-  configContext: WebpackConfigContext
+  configContext: WebpackConfigContext,
 ) {
   (
     config.module?.rules?.[2] as
@@ -63,9 +63,9 @@ export default function css(
                   return Reflect.apply(target, thisArg, argArray);
                 }
 
-                return defaultGetLocalIdent(...argArray);
+                return defaultGetLocalIdent(...(argArray as Array<unknown>));
               },
-            }
+            },
           );
         }
       }
