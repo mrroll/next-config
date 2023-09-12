@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "13.223.0",
+  "version": "13.224.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -34,7 +34,7 @@
     "ts-deepmerge": "^6.2.0"
   },
   "devDependencies": {
-    "@mrroll/eslint-config-typescript": "^0.235.0",
+    "@mrroll/eslint-config-typescript": "^0.237.0",
     "@tsconfig/node18": "^18.2.1",
     "@types/node": "^18.17.15",
     "cross-env": "^7.0.3",
