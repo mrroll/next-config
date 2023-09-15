@@ -1837,13 +1837,13 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.242.0":
-  version "0.242.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.242.0.tgz#c1ae904ed6739809685b510172b2c8300c32deec"
-  integrity sha512-LWTaVhRtlUm8i5e04cLpbsFlwbcwSFlmaG3kvo2hfmf16zcKkDARUZALjwQVxhW9xIPaFLGGks+m3nbYCZA/vQ==
+"@mrroll/eslint-config-typescript@^0.243.0":
+  version "0.243.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.243.0.tgz#e9ecf2140c0e40b2e5cfae147244faaab87fb527"
+  integrity sha512-gEnU5ymB1IOUVfM4QkZwQYwYWxiF1bs5y+GKM6sv2X6SKhyOhew3HSjXPB/FeOzkjDNuyz8wPUxaQN8xoU6scQ==
   dependencies:
     "@next/eslint-plugin-next" "^13.4.19"
-    "@rushstack/eslint-patch" "^1.3.3"
+    "@rushstack/eslint-patch" "^1.4.0"
     "@typescript-eslint/eslint-plugin" "^6.7.0"
     "@typescript-eslint/parser" "^6.7.0"
     eslint-config-prettier "^9.0.0"
@@ -1929,10 +1929,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@rushstack/eslint-patch@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.3.3.tgz#16ab6c727d8c2020a5b6e4a176a243ecd88d8d69"
-  integrity sha512-0xd7qez0AQ+MbHatZTlI1gu5vkG8r7MYRUJAHPAHJBmGLs16zpkrpAVLvjQKQOqaXPDUBwOiJzNc00znHSCVBw==
+"@rushstack/eslint-patch@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
+  integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
 "@sinclair/typebox@^0.25.16":
   version "0.25.24"
