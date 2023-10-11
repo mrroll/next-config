@@ -1585,10 +1585,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.257.0":
-  version "0.257.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.257.0.tgz#b028753755d56375249c560ad83f71b1484cca6e"
-  integrity sha512-IU3CZiSDBtacEVGwsQ97RI3H/JNyS0QUpFWCxw7qEMNbO7hapz7eY1uHkA7Y2SdXR6CixukWAb8yHy1OztKahw==
+"@mrroll/eslint-config-typescript@^0.258.0":
+  version "0.258.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.258.0.tgz#ff49618f0884ec432363939ebbaac2ff7c77ce1e"
+  integrity sha512-cG8LLNMd3feY05vgXJS1q8beui9eQvVhIs5+JetExX9l/oRGgMvPgx7vVccapnmNpYD6cvzdLlJWP1IjZjpUhQ==
   dependencies:
     "@next/eslint-plugin-next" "^13.5.4"
     "@rushstack/eslint-patch" "^1.5.1"
