@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "13.243.0",
+  "version": "13.244.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -35,10 +35,10 @@
     "ts-deepmerge": "^6.2.0"
   },
   "devDependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
-    "@mrroll/eslint-config-typescript": "^0.258.0",
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@mrroll/eslint-config-typescript": "^0.259.0",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.18.4",
+    "@types/node": "^18.18.5",
     "cross-env": "^7.0.3",
     "eslint": "^8.51.0",
     "next": "^13.5.4",

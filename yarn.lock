@@ -1505,17 +1505,17 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@ianvs/prettier-plugin-sort-imports@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ianvs/prettier-plugin-sort-imports/-/prettier-plugin-sort-imports-4.1.0.tgz#7e08cc97d68de2d502659debbe076f6970f64b00"
-  integrity sha512-IAXeTLU24k6mRPa6mFbW1qZJ/j0m3OeH44wyijWyr+YqqdNtBnfHxAntOAATS9iDfrT01NesKGsdzqnXdDQa/A==
+"@ianvs/prettier-plugin-sort-imports@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ianvs/prettier-plugin-sort-imports/-/prettier-plugin-sort-imports-4.1.1.tgz#364fb49c4104d577c80750dcc27a7bae4338095d"
+  integrity sha512-kJhXq63ngpTQ2dxgf5GasbPJWsJA3LgoOdd7WGhpUSzLgLgI4IsIzYkbJf9kmpOHe7Vdm/o3PcRA3jmizXUuAQ==
   dependencies:
     "@babel/core" "^7.21.8"
     "@babel/generator" "^7.21.5"
     "@babel/parser" "^7.21.8"
     "@babel/traverse" "^7.21.5"
     "@babel/types" "^7.21.5"
-    semver "^7.5.0"
+    semver "^7.5.2"
 
 "@jest/schemas@^29.4.3":
   version "29.4.3"
@@ -1585,10 +1585,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.258.0":
-  version "0.258.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.258.0.tgz#ff49618f0884ec432363939ebbaac2ff7c77ce1e"
-  integrity sha512-cG8LLNMd3feY05vgXJS1q8beui9eQvVhIs5+JetExX9l/oRGgMvPgx7vVccapnmNpYD6cvzdLlJWP1IjZjpUhQ==
+"@mrroll/eslint-config-typescript@^0.259.0":
+  version "0.259.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.259.0.tgz#8f37fc7d20d5f4cd0b9a05283f0f1466c51e1175"
+  integrity sha512-CmwQWL3mqHGFSuRUf7Wu7X7e7o2XYNeRZO/1k5OIL0XzHpnZK88vezqlB6/x9rrAcKzvAmTq1+eCQSxqyUf3og==
   dependencies:
     "@next/eslint-plugin-next" "^13.5.4"
     "@rushstack/eslint-patch" "^1.5.1"
@@ -1863,10 +1863,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.16.tgz#0eb3cce1e37c79619943d2fd903919fc30850601"
   integrity sha512-EQHhixfu+mkqHMZl1R2Ovuvn47PUw18azMJOTwSZr9/fhzHNGXAJ0ma0dayRVchprpCj0Kc1K1xKoWaATWF1qg==
 
-"@types/node@^18.18.4":
-  version "18.18.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.4.tgz#519fef47a13cf869be290c20fc6ae9b7fe887aa7"
-  integrity sha512-t3rNFBgJRugIhackit2mVcLfF6IRc0JE4oeizPQL8Zrm8n2WY/0wOdpOPhdtG0V9Q2TlW/axbF1MJ6z+Yj/kKQ==
+"@types/node@^18.18.5":
+  version "18.18.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.5.tgz#afc0fd975df946d6e1add5bbf98264225b212244"
+  integrity sha512-4slmbtwV59ZxitY4ixUZdy1uRLf9eSIvBWPQxNjhHYWEtn0FryfKpyS2cvADYXTayWdKEIsJengncrVvkI4I6A==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -4941,7 +4941,7 @@ semver@^7.3.8:
   dependencies:
     lru-cache "^6.0.0"
 
-semver@^7.5.0, semver@^7.5.3, semver@^7.5.4:
+semver@^7.5.2, semver@^7.5.3, semver@^7.5.4:
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
