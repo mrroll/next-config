@@ -1585,10 +1585,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.259.0":
-  version "0.259.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.259.0.tgz#8f37fc7d20d5f4cd0b9a05283f0f1466c51e1175"
-  integrity sha512-CmwQWL3mqHGFSuRUf7Wu7X7e7o2XYNeRZO/1k5OIL0XzHpnZK88vezqlB6/x9rrAcKzvAmTq1+eCQSxqyUf3og==
+"@mrroll/eslint-config-typescript@^0.260.0":
+  version "0.260.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.260.0.tgz#fa82de2ad5a75efd0d7fd6474f1cc40141557d75"
+  integrity sha512-KH2VLPOZMw2aTRxz6MZ+oeTqkNV1gF7Zv1gkfiosJj1ykXhX3V9uAqvPJGsdki5ZfZAb9ikm+w7wKY3RVafZfg==
   dependencies:
     "@next/eslint-plugin-next" "^13.5.4"
     "@rushstack/eslint-patch" "^1.5.1"
@@ -5583,10 +5583,10 @@ webpack-sources@^3.2.3:
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.3.tgz#2d4daab8451fd4b240cc27055ff6a0c2ccea0cde"
   integrity sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==
 
-webpack@^5.88.2:
-  version "5.88.2"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.88.2.tgz#f62b4b842f1c6ff580f3fcb2ed4f0b579f4c210e"
-  integrity sha512-JmcgNZ1iKj+aiR0OvTYtWQqJwq37Pf683dY9bVORwVbUrDhLhdn/PlO2sHsFHPkj7sHNQF3JwaAkp49V+Sq1tQ==
+webpack@^5.89.0:
+  version "5.89.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.89.0.tgz#56b8bf9a34356e93a6625770006490bf3a7f32dc"
+  integrity sha512-qyfIC10pOr70V+jkmud8tMfajraGCZMBWJtrmuBymQKCrLTRejBI8STDp1MCyZu/QTdZSeacCQYpYNQVOzX5kw==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^1.0.0"
