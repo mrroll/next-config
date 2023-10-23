@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "13.248.0",
+  "version": "13.249.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -36,11 +36,11 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
-    "@mrroll/eslint-config-typescript": "^0.263.0",
+    "@mrroll/eslint-config-typescript": "^0.264.0",
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^18.18.6",
     "cross-env": "^7.0.3",
-    "eslint": "^8.51.0",
+    "eslint": "^8.52.0",
     "next": "^13.5.6",
     "nodemon": "^3.0.1",
     "npm-run-all": "^4.1.5",
