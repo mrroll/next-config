@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/next-config",
-  "version": "13.260.0",
+  "version": "13.261.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -27,7 +27,7 @@
   },
   "volta": {
     "node": "18.18.2",
-    "yarn": "1.22.19"
+    "yarn": "1.22.21"
   },
   "dependencies": {
     "@svgr/webpack": "^8.1.0",
@@ -47,7 +47,7 @@
     "prettier": "^3.1.0",
     "rimraf": "^4.4.1",
     "tsc-alias": "^1.8.8",
-    "tsx": "^4.1.1",
+    "tsx": "^4.1.2",
     "typescript": "^5.2.2",
     "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.34.6",
