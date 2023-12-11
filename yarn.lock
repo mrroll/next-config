@@ -1700,10 +1700,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.297.0":
-  version "0.297.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.297.0.tgz#545745e5a2a1550647428b5ac434b4e6ec363f77"
-  integrity sha512-PUTr4TFED078tm8d+5hBbHv9dR7m0n2Px1iPAucIsUTZ4oy878zyChd5xp1vISX2Uphq8T7d8859CGPeptayAA==
+"@mrroll/eslint-config-typescript@^0.298.0":
+  version "0.298.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.298.0.tgz#21711066ff7a160fe534d3b7ee8a2c608c02e0e6"
+  integrity sha512-pn8IT0VoOmUtEybyIfXeO58QI2Q2442zoYQh8KCHVMYfMvr1LSXzoHG4LNuomCmfLZFFnGfeQ1ZQRy+XzvzKcg==
   dependencies:
     "@next/eslint-plugin-next" "^14.0.4"
     "@rushstack/eslint-patch" "^1.6.0"
@@ -4877,10 +4877,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prettier@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.0.tgz#c6d16474a5f764ea1a4a373c593b779697744d5e"
-  integrity sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==
+prettier@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.1.tgz#6ba9f23165d690b6cbdaa88cb0807278f7019848"
+  integrity sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==
 
 pretty-format@^29.7.0:
   version "29.7.0"
