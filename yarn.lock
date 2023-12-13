@@ -1700,16 +1700,17 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.299.0":
-  version "0.299.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.299.0.tgz#9d3f39ad4aa79f573245e17527174887c5986360"
-  integrity sha512-In0oo0xUJPYrdHhdltUX+LP7t414eT/7ihny6XL/TB+1YgOMvbNozLzypsJTN+qbX80IkDkdRLWHKG1mkqiZnQ==
+"@mrroll/eslint-config-typescript@^0.301.0":
+  version "0.301.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.301.0.tgz#8ce9b5289b08a60dda5b073cd7cbe0280af6ff1d"
+  integrity sha512-NdK/+7Y9tTsbMTNroeURYwtxH3a/yy+KMHXRal+GFhbUpig4EUxDGVOqJkC/Prr2lPUkszI2ke1CLgsrp+Br6g==
   dependencies:
     "@next/eslint-plugin-next" "^14.0.4"
     "@rushstack/eslint-patch" "^1.6.0"
     "@typescript-eslint/eslint-plugin" "^6.14.0"
     "@typescript-eslint/parser" "^6.14.0"
     eslint-config-prettier "^9.1.0"
+    eslint-plugin-drizzle "^0.2.2"
     eslint-plugin-react "^7.33.2"
     eslint-plugin-react-hooks "^4.6.0"
     eslint-plugin-unicorn "^49.0.0"
@@ -3219,6 +3220,11 @@ eslint-config-prettier@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-9.1.0.tgz#31af3d94578645966c082fcb71a5846d3c94867f"
   integrity sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==
+
+eslint-plugin-drizzle@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-drizzle/-/eslint-plugin-drizzle-0.2.2.tgz#d3236ff8e6eb3947a10ceba4ca81641667e47e5d"
+  integrity sha512-dyGlL9iOYjSK7jpgh87jL6zZP42mLZV0xrAYv+/hMbh/4ml3oR758wnk5G3frH60rHYscIS6GYL5juSir4yELg==
 
 eslint-plugin-react-hooks@^4.6.0:
   version "4.6.0"
