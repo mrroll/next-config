@@ -1705,10 +1705,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mrroll/eslint-config-typescript@^0.311.0":
-  version "0.311.0"
-  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.311.0.tgz#b42439e7e9780b7b551daab30546e4b50d901dbc"
-  integrity sha512-l+ao+ItXxUaZjFbkSBBl/8GUT1UAJptLcuaOwKA6gLzsZrTSvj4E1NE1hF/RvcOgu1jO+HojvsK028xV2JbfQQ==
+"@mrroll/eslint-config-typescript@^0.312.0":
+  version "0.312.0"
+  resolved "https://registry.yarnpkg.com/@mrroll/eslint-config-typescript/-/eslint-config-typescript-0.312.0.tgz#1990f7fb53d86f17391e832ede729dfd62b02dee"
+  integrity sha512-SdRSJyePt5rv2Mw5D77KoXu1QlVFIYNTekymxMoJqUBn9yCzcbgBDLva2OEGekKwl9BxXVt6ubN8VkjsAwoMeQ==
   dependencies:
     "@next/eslint-plugin-next" "^14.0.4"
     "@rushstack/eslint-patch" "^1.6.1"
@@ -5863,10 +5863,10 @@ vite-node@1.1.0:
     picocolors "^1.0.0"
     vite "^5.0.0"
 
-vite-tsconfig-paths@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.2.2.tgz#fee5a59c885687ae046e1d5a394bdcfdb12d9361"
-  integrity sha512-dq0FjyxHHDnp0uS3P12WEOX2W7NeuLzX9AWP38D7Zw2CTbFErapwQVlCiT5DMJcVWKQ1MMdTe92PZl/rBQ7qcw==
+vite-tsconfig-paths@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.2.3.tgz#af31ba11e828c0b2b5426304294c88edd7a1071a"
+  integrity sha512-xVsA2xe6QSlzBujtWF8q2NYexh7PAUYfzJ4C8Axpe/7d2pcERYxuxGgph9F4f0iQO36g5tyGq6eBUYIssdUrVw==
   dependencies:
     debug "^4.1.1"
     globrex "^0.1.2"
