@@ -9,23 +9,27 @@ export default function css(
   (
     config.module?.rules?.[2] as
       | {
-          oneOf: Array<{
-            use:
-              | Array<{
-                  loader: string | undefined;
-                  options: {
-                    modules:
-                      | {
-                          getLocalIdent: typeof defaultGetLocalIdent;
-                          // If one wants to do Global CSS imports, this property must be deleted from the object.
-                          mode: 'pure';
-                          [key: string]: unknown;
-                        }
-                      | false;
-                  };
-                }>
-              | undefined;
-          }>;
+          oneOf:
+            | Array<{
+                use:
+                  | Array<{
+                      loader: string | undefined;
+                      options: {
+                        modules:
+                          | {
+                              getLocalIdent:
+                                | typeof defaultGetLocalIdent
+                                | undefined;
+                              // If one wants to do Global CSS imports, this property must be deleted from the object.
+                              mode: 'pure';
+                              [key: string]: unknown;
+                            }
+                          | false;
+                      };
+                    }>
+                  | undefined;
+              }>
+            | undefined;
         }
       | undefined
   )?.oneOf?.forEach((rule) => {
